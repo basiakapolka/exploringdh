@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Welcome</title>
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css"> 
+</head>
+  
+<body class="container-fluid m-3 p-2"> 
+
+  <header> <!-- top level navigation -->
+    <div class="row" color=#6d6c97>
+        <div class="col">
+          <a href="index.html"><img src="assets/images/logo.png" class="img-fluid max-width: 72px height: auto" alt="creative dh logo"></a>
+        </div>
+        <div class="col">
+          <a href="index.html" class="p-2 m-1 text-center">Welcome</a>
+        </div>
+        <div class="col">
+          <a href="reading.html">Reading</a>
+        </div>
+        <div class="col">
+          <a href="creating.html">Creating</a>
+        </div>
+        <div class="col">
+          <a href="about.html" class="p-2 m-1">About Me</a>
+        </div>
+              <div class = "col">
+          <button onclick="toggleTheme();">Toggle dark theme</button>
+        </div>
+       <div class = "col">
+          <button onclick="toggleFont();">Toggle font</button>
+        </div>
+    </div>                                          
+  </header>
+ 
+
+  <main>
+    <div class="row">
+        <h1 hidden>All about Digital Humanities</h1>
+      <p class="text-center" id="showman">Digital Humanities</p>
+    <hr>
+    </div>
+     <div class="row"> 
+      <h2 hidden>What is Digital Humanities?</h2>
+    </div>
+    <div class="row">
+    <div class="col-7"><p>The question, "What is digital humanities?" is so confounding, there is <a href="https://whatisdigitalhumanities.com/" target=_blank>an entire website</a> dedicated to answering the question. I like to think of it as a toolkit that helps us do two things:</p>
+      <ul id="showman-center">
+        <li>Use technology to ask and explore questions about what it means to be human.</li>
+        <li>Examine technology to find out how it is affecting our lives and the lives of others.</li>
+      </ul>
+      <p>This website offers a collection or readings and tools that will help you get started in understanding what Digital Humanities is and how you might use it in your own research or teaching. 
+        </p></div>
+    <div class="col-5"><img src=assets/images/whatisdh.png alt="screenshot from the website what is digital humanities?" class="img-fluid float-right"></div> 
+<hr>
+    </div>
+  
+    <div class="row">
+      <h2>Project Examples</h2>
+    </div>
+    <div class="row">
+	   <div class="col">
+         <p>Digital Exhibits</p></div>
+	   <div class="col">
+         <p>Text Mining</p></div>
+	  <div class="col">
+         <p>Mapping</p></div>
+    <div class="row">
+         <div class="col">
+           <a href="https://nulib-ds.github.io/AnAmericansAfrica" target="_blank"><img src="assets/images/exhibit_example.png" class="img-fluid" alt = "screenshot of Digital Exhibit example"></a></div>
+	   <div class="col">
+         <a href="https://we1s.ucsb.edu/" target="_blank"><img src="assets/images/text_example.png" class="img-fluid" alt = "screenshot of Text Mining example"></a></div>
+	  <div class="col">
+         <a href="https://sameboats.org/#/" target="_blank"><img src="assets/images/map_example.png" class="img-fluid" alt = "screenshot of mapping example"></a></div>
+</div>
+          <div class="row">
+	   <div class="col m-2">
+         <p><i>An American's Africa</i> is a digital exhibit featuring items from a woman's trip to Africa in 1953.</p></div>
+	   <div class="col m-2">
+         <p>The WhatEvery1Says project (WE1S) uses digital humanities methods to study media discourse about the humanities at large data scales.</p></div>
+	  <div class="col m-2">
+         <p>This visualization presents an interactive narrative overview of one or more individuals' movements through space over time.</p></div>
+      </div></div>    
+    </main>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/java.js"></script>
+
+</body>
+</html>
